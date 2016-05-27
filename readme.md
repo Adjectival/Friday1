@@ -5,7 +5,7 @@
 
 ## Description
 
-_Code files included will create a website. Major content on main page is links to projects on github.com as well as information about the author._
+_Code files included will create a website. Major content on main page is links to projects on github.com as well as information about the author. Please refer to http://adjectival.github.io/Friday1 for a preview._
 
 ## Setup/Installation Requirements
 
