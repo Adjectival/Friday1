@@ -1,13 +1,22 @@
 h1 {
-
+  margin: 5px;
 }
 
 h2 {
+  color: darkgreen;
+  font-size: 1.5em;
+}
 
+p {
+  margin-top: 25px;
 }
 
 body {
   font-family: monospace;
+}
+
+.roomy {
+  padding: 15px 15px 0px 15px;
 }
 
 .awesometeal {
