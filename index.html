@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet"  type="text/css" href="css/styles.css">
     <title>Alexander Jacks, Developing Web Developer</title>
   </head>
   <body>
 
-<!-- Navigation, responsive to display port changes; mobile 3-bar menu-->
+<!-- Navigation, responsive to display port changes; mobile-friendly 3-bar menu-->
     <div class="navbar navbar-default navbar-fixed">
       <div class="container">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="index.html">Portfolio</a></li>
-            <li><a href="#">About me</a></li>
+            <li><a href="#">Why PDX?</a></li>
             <li><a href="#">Why Code?</a></li>
           </ul>
         </div>
@@ -32,14 +32,14 @@
         <div class="container">
           <div class="jumbotron text-center awesometeal">
             <h1>Hello,</h1>
-            <h2>you've found Alexander Jacks's portfolio page.</h2>
+            <h2>you've found <span id="name">Alexander Jacks</span>'s portfolio page.</h2>
             <!-- glyphicon spot, set up w div?-->
           </div>
 
 
 <!-- set up w div-->
         <p>
-            You can examine some projects I've worked on at Epicodus
+            You can examine some projects I've worked on at Epicodus, a programming bootcamp in Portland, Oregon.
             <ul>
               <li><a href="https://github.com/Adjectival/vacation.git">Travel Agency website, using Bootstrap framework</a></li>
               <li><a href="https://github.com/Adjectival/cascade.git">Cascading Stylesheet example, using HTML &amp; CSS</a></li>
@@ -57,10 +57,32 @@
           After moving to Oregon (and before deciding to learn how to program) I studied neuroscience and earned a BS in Psychology at Portland State University. Currently I'm fascinated by the web technologies I learn and use daily, and the expanding arena of cloud services. I live in Southeast Portland with my wife (a pop culture savant and medical Data Analyst), our aquarium of fish and snails, and our kombucha: sometimes less exotic yeasts live with us for awhile, if I'm homebrewing beer.
         </p>
 
+<!-- Images amd text set in individual columns, also responsive -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-md-4">
+    <img src="img/represents-adj.jpg" class="img-responsive center-block img-circle" alt="Airman Jacks in 607 ACOMS shirt">
+    <p>
+      I helped move Top Secret data securely in the USAF, and now I like to write code.
+    </p>
+    </div>
 
-<img src="img/represents-adj.jpg">
-        <img src="img/homebrew-beer.jpg">
-        <img src="img/homebrew-kombucha.jpg">
+    <div class="col-xs-12 col-md-4">
+    <img src="img/homebrew-beer.jpg" class="img-responsive center-block img-rounded" alt="About 5 gallons of my second-ever batch of beer (an ale, I believe).">
+    <p>
+      Beer occurs when certain yeasts find a sugary fluid to eat and then they make alcohol.
+    </p>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+    <img src="img/homebrew-kombucha.jpg" class="img-responsive center-block img-rounded" alt="Kombucha is healthy and not well understood by modern medicine.">
+    <p>
+      Kombucha is a cooperative of over 20 microbes that eat sugar and poop vitamins and C0<sub>2</sub>
+    </p>
+    </div>
+
+  </div>
+</div>
 
     </div>
 
