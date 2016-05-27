@@ -2,37 +2,67 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Alexander Jacks, Developing Web Developer</title>
   </head>
   <body>
-<!-- glyphicon spot, set up w div-->
-    <h1>Hello,</h1>
-    <h2>you've found Alexander Jacks's portfolio page.</h2>
 
-    <p><img src="img/represents-adj.jpg"></p>
+<!-- Navigation, responsive to display port changes; mobile 3-bar menu-->
+    <div class="navbar navbar-default navbar-fixed">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+<!-- Navigation title & menu items -->
+        <a href="#" class="navbar-brand text-muted">Alexander Jacks, Developing Web Developer</a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Portfolio</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Why Code?</a></li>
+          </ul>
+        </div>
+
+<!-- Main page content begins -->
+        <div class="container">
+          <div class="jumbotron text-center awesometeal">
+            <h1>Hello,</h1>
+            <h2>you've found Alexander Jacks's portfolio page.</h2>
+            <!-- glyphicon spot, set up w div?-->
+          </div>
+
 
 <!-- set up w div-->
-    <p>
-        You can examine some projects I've worked on at Epicodus
-        <ul>
-          <li>Travel Agency website, using Bootstrap framework</li>
-          <li>Cascading Stylesheet example, using HTML &amp; CSS</li>
-          <li>Basic Blog layout for website, using HTML &amp; CSS</li>
-          <li>Cupcake Shop website, using HTML &amp; CSS</li>
-          <li>Island Vacation Resort website, using HTML</li>
-        </ul>
-    </p>
+        <p>
+            You can examine some projects I've worked on at Epicodus
+            <ul>
+              <li><a href="https://github.com/Adjectival/vacation.git">Travel Agency website, using Bootstrap framework</a></li>
+              <li><a href="https://github.com/Adjectival/cascade.git">Cascading Stylesheet example, using HTML &amp; CSS</a></li>
+              <li><a href="https://github.com/Adjectival/blogsite.git">Basic Blog layout for website, using HTML &amp; CSS</a></li>
+              <li><a href="https://github.com/Adjectival/cupcake.git">Cupcake Shop website, using HTML &amp; CSS</a></li>
+              <li><a href="https://github.com/Adjectival/resort-website.git">Island Vacation Resort website, using HTML</a></li>
+            </ul>
+        </p>
 
 <!-- glyphicon spot, set up w div-->
-    <p>
-      I served as an cryptographic IT guy in the US Air Force for awhile, and meeting those challenges taught me to enjoy troubleshooting technical problems.  This experience, plus years spent tinkering with computers and software, eventually lead me to the vocational programming school, Epicodus.
-    </p>
-    <p>
-      After moving to Oregon (and before deciding to learn to program) I studied neuroscience and earned a BS in Psychology at Portland State University. Currently I'm fascinated by the web technologies I learn and use daily, and the expanding arena of the cloud services. I live in Southeast Portland with my wife (a pop culture savant and medical Data Analyst), our aquarium of fish and snails, and our kombucha: sometimes less exotic yeasts live with us for awhile, if I'm homebrewing beer.
-    </p>
+        <p>
+          I served as an cryptographic IT guy in the US Air Force for awhile, and meeting those challenges taught me to enjoy troubleshooting technical problems.  This experience, plus years spent tinkering with computers and software, eventually lead me to the vocational programming school, Epicodus.
+        </p>
+        <p>
+          After moving to Oregon (and before deciding to learn how to program) I studied neuroscience and earned a BS in Psychology at Portland State University. Currently I'm fascinated by the web technologies I learn and use daily, and the expanding arena of cloud services. I live in Southeast Portland with my wife (a pop culture savant and medical Data Analyst), our aquarium of fish and snails, and our kombucha: sometimes less exotic yeasts live with us for awhile, if I'm homebrewing beer.
+        </p>
 
-    <p><img src="img/homebrew-beer.jpg">
-    <img src="img/homebrew-kombucha.jpg"></p>
+
+<img src="img/represents-adj.jpg">
+        <img src="img/homebrew-beer.jpg">
+        <img src="img/homebrew-kombucha.jpg">
+
+    </div>
 
 <!-- Create a gh-pages branch so that you site can be viewed on GitHub Pages at your-username.github.io/portfolio (i.e.). -->
   </body>
