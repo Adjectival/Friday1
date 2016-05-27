@@ -10,7 +10,7 @@ _Code files included will create a website. Major content on main page is links 
 ## Setup/Installation Requirements
 
 * _Clone project repositories to your local machine_
-* _Examine files, edit, etc
+* _Examine files, edit, etc_
 * _Optional: Re-use by uploading to web server_
 
 ## Known Issues
@@ -31,4 +31,4 @@ _Contact alexd (dot) jacks (at) gmail (dot) com with questions regarding this so
 
 _This software is available under the MIT license and can be modified and used for any purposes without express permission of the author._
 
-Copyright (c) 2016 **_{Alexander Jacks}_**
+Copyright (c) 2016 **_Alexander Jacks_**
